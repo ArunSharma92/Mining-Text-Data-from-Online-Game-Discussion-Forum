@@ -3,7 +3,8 @@ import urllib2
 from bs4 import BeautifulSoup
 from bs4 import Comment
 
-print "Enter the link : "
+#Taking the user Input in form of url
+print "Enter the link : "    
 url = raw_input();
 f = urllib2.urlopen(url)
 
