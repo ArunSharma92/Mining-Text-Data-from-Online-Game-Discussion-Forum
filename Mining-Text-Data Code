@@ -77,7 +77,6 @@ for page in range(0,pages):
 			file1.write(line)
 			file1.write("\n")
 				
-		#print "============================================"
 		file1.write("===============================================================================================\n")
 # Getting the mined text in a file and assigning the file a name		
 print "All the posts of the given link are stored in '"+filename+"' file"
