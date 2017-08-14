@@ -30,7 +30,7 @@ p = soup.find('li' , attrs={"class":"pageof"}).text.split(" ")
 pages = int(p[3])
 
 print "Number of pages found : " + str(pages)
-
+#Collecting Data by mining text through all the pages in the forum
 for page in range(0,pages):
 
 	print "Collecting posts from page #" + str(page+1) 
