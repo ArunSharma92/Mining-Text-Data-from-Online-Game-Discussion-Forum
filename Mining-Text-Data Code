@@ -14,7 +14,6 @@ title = soup.find('div' , attrs={"class":"tcat clearfix"})
 
 filename = ""+title.find('div' , attrs={"class":"left"}).text.strip()+".txt"
 
-
 try:
 	file1 = open(filename,"w")
 except IOError:
@@ -79,5 +78,5 @@ for page in range(0,pages):
 				
 		#print "============================================"
 		file1.write("===============================================================================================\n")
-		
+# Getting the mined text in a file and assigning the file a name		
 print "All the posts of the given link are stored in '"+filename+"' file"
